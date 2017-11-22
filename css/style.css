@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#header {
+    font-size: 48px;
+    font-weight: 100;
+    color: #20c1f7;
+
+}
+
+#most-used {
+    font-size: 48px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+input[type="url"]{
+    height: 32px;
+    width: 480px;
+    padding: 12px;
+    font-size: 20px;
+    margin: 0;
+    outline: none;
+    border: 1px solid #20c1f7;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    z-index: -1;
+}
+
+input[type="submit"]{
+    height: 58px;
+    width: 116px;
+    border: 1px solid #20c1f7;
+    background-color: #20c1f7;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-left: -5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: #13abdd; /* #13abdd */
+}
+
+input[type="submit"]:active{
+    background-color: rgba(32, 193, 247, .8);
+}
+
+.url-copy{
+    position: relative;
+    display: none;
+    height: 58px;
+    width: 116px;
+    border: 1px solid #20c1f7;
+    background-color: #20c1f7;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-left: -5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.url-copy:hover {
+    background-color: #13abdd; /* #13abdd */
+}
+
+.url-copy:active{
+    background-color: rgba(32, 193, 247, .8);
+}
+
+.info-box {
+    height: 750px;
+    width: 100%;
+    background-color: #20c1f7;
+}
+
+#info-popular {
+    width: 40%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+#info-popular-table {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    border-collapse: collapse;
+    color: #20c1f7;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#info-popular-table td, th {
+    border: 1px solid white;
+}
+
+#info-popular-table tr:nth-child(even) {
+    background-color: #20c1f7;
+    color: white;
+}
+
+#info-popular-table tr:nth-child(even) a{
+    color: white;
+}
+
+a {
+    color: #20c1f7;
+}
